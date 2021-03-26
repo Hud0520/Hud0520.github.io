@@ -1,0 +1,168 @@
+@import url("all.css");
+@import url("basic.css");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Quicksand:wght@300;400&display=swap');
+body{
+    font-family: 'Quicksand' !important;
+}
+.font-dancing{
+    font-family: 'Dancing Script' !important;
+}
+.navbar-brand{
+    font-size: 30px !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.header{
+    font-weight: bolder;
+}
+.carousel-item >img{
+    height: 100vh;
+    object-fit: cover;
+}
+.carousel {
+height: 100vh;
+}
+/*Chay len*/
+.icon-box{
+    position: relative;
+
+}
+.mt--3{
+    margin-top: -4rem;
+    transition-duration:.75s;
+
+}
+.mt-3{
+    margin-top: 4rem;
+    transition-duration: .75s;
+
+}
+
+/*Het*/
+.mycrop2{
+    width: 100%;
+    overflow: hidden;
+    max-height: 400px;
+}
+
+.mycrop3{
+    width: 100%;
+    overflow: hidden;
+    max-height: 350px;
+}
+.mycrop4{
+    width: 100%;
+    overflow: hidden;
+    max-height: 350px;
+}
+.txtSlider{
+    font-size: 80px !important;
+    font-family: 'Dancing Script' !important;
+    text-shadow: black 1px 1px 1px !important;
+}
+
+.icon{
+    font-size: 30px;
+    color: #EE7C6B;
+    padding:10px;
+}
+
+.footer{
+    color: #fff;
+}
+.footer{
+    background-color: rgba(0,0,0,0.8);
+}
+.footer .container-md{
+    padding: 10% 5%;
+
+}
+
+/*-------------------------bootstrap remake------------------------------*/
+.btn-ping {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 1);
+    padding: 1rem 1.75rem;
+    font-weight: bolder;
+  }
+.fixed-top{
+    background-color: rgba(255, 255, 255, 0.8);
+    transition-duration:.75s;
+}
+  .btn-ping:hover {
+    color: #fff;
+    border:2px solid rgba(255, 255, 255, 0.8) ;
+    background-color: rgba(255, 255, 255,0);
+  }
+  .carousel-caption{
+    padding-top: 35% !important;
+    padding-bottom: 35% !important;
+}
+.page-item{
+    margin: 0.5rem;
+}
+.btn-tour{
+    background-color:  #EE7C6B;
+    border: 2px solid  #EE7C6B;
+    padding: 1rem 1.75rem;
+    font-weight: bolder;
+    color: #fff;
+}
+.btn-tour:hover{
+    color: black;
+    background-color: #fff;
+    border-color: black;
+}
+
+/*-------------------------end bootstrap remake------------------------------*/
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.top{
+        display: none;
+    }
+    .carousel-item >img{
+        height: 70vh;
+        object-fit: cover;
+    }
+  .carousel {
+    height: 70vh;
+  }
+  .mycrop2{
+      max-height: 400px;
+      overflow: hidden;
+  }
+  .icon-box{
+      position: none;
+      margin: 5% 0;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .mycrop2{
+        max-height: 400px;
+        overflow: hidden;
+    }
+    .icon-box{
+        position: relative;
+        margin: 5% 0;
+    }
+    .mycrop2:hover h5{
+      padding-bottom: 0rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}
