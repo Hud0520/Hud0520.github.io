@@ -6,10 +6,12 @@
             $('.fixed-top').css('background', 'rgba(255, 255, 255, 0.8)');
             $('.icon-box').removeClass('mt--3');
             $('.icon-box').addClass('mt-3');
+            $('.icon-box').css('opacity','0');
         } else{
             $('.fixed-top').css('background', 'white');
             $('.icon-box').addClass('mt--3');
             $('.icon-box').removeClass('mt-3');
+            $('.icon-box').css('opacity','1');
         }
         
     });
