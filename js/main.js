@@ -2,7 +2,7 @@
 
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
-        if(scroll <= 5){
+        if(scroll <= 75){
             $('.fixed-top').css('background', 'rgba(255, 255, 255, 0.8)');
             $('.icon-box').removeClass('mt--3');
             $('.icon-box').addClass('mt-3');
