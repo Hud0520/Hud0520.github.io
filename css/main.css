@@ -1,26 +1,49 @@
 @import url("all.css");
 @import url("basic.css");
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Quicksand:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=WindSong&display=swap');
+@import url("header.css");
+@import url("booking.css");
 body{
-    font-family: 'Quicksand' !important;
+    font-family: 'Questrial' !important;
+    font-size: 18px !important;
 }
 .font-dancing{
     font-family: 'Dancing Script' !important;
 }
+.font-wind{
+    font-family: 'WindSong' !important;
+}
 .navbar-brand{
     font-size: 30px !important;
     font-weight: bold;
-    text-transform: uppercase;
+    
 }
 .header{
     font-weight: bolder;
 }
 .carousel-item >img{
+    /*opacity: 0.8;*/
     height: 100vh;
     object-fit: cover;
+    
 }
 .carousel {
-height: 100vh;
+    height: 100vh;
+    /*background-color: black;*/
+    
+}
+.carousel h1{
+    font-size: 80px;
+    
+}
+
+.boxi{
+    height: 100px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+    text-align: center;
+    border-radius: 2px;
 }
 /*Chay len*/
 .icon-box{
@@ -44,34 +67,36 @@ height: 100vh;
     max-height: 400px;
 }
 
-.mycrop3{
-    width: 100%;
-    overflow: hidden;
-    max-height: 350px;
-}
 .mycrop4{
     width: 100%;
     overflow: hidden;
-    max-height: 350px;
+    max-height: 200px;
 }
-.txtSlider{
-    font-size: 80px !important;
-    font-family: 'Dancing Script' !important;
-    text-shadow: black 1px 1px 1px !important;
+.post a{
+    color: #1cc3b2;
 }
 
+.ask{
+    background:  url("../img/3.png");
+}
+.contact{
+    background: no-repeat url("../img/contact.jpg");
+    
+    background-size: 100%;
+    opacity: 0.8;
+    text-shadow: 0px 0px 25px #000;
+}
 .icon{
     font-size: 30px;
-    color: #EE7C6B;
+    color:#1cc3b2;
     padding:10px;
 }
 
 .footer{
     color: #fff;
+    background-color: #0e2737;
 }
-.footer{
-    background-color: rgba(0,0,0,0.8);
-}
+
 .footer .container-md{
     padding: 10% 5%;
 
@@ -79,40 +104,45 @@ height: 100vh;
 
 /*-------------------------bootstrap remake------------------------------*/
 .btn-ping {
-    background-color: rgba(255, 255, 255, 0.2);
-    border: 2px solid rgba(255, 255, 255, 1);
-    padding: 1rem 1.75rem;
+    border: 2px solid #1cc3b2;
+    border-radius: 2px;
+    padding:0.75rem 2.75rem;
     font-weight: bolder;
+    background-color: hsla(174, 75%, 44%, 0);
+    color: #fff;
+    transition-duration: 1s;
   }
 .fixed-top{
-    background-color: rgba(255, 255, 255, 0.8);
+    /*background-color: rgba(255, 255, 255, 0.8);*/
     transition-duration:.75s;
 }
   .btn-ping:hover {
     color: #fff;
-    border:2px solid rgba(255, 255, 255, 0.8) ;
-    background-color: rgba(255, 255, 255,0);
+    border:2px solid #1cc3b2 ;
+    background-color: hsl(174, 75%, 44%);
   }
-  .carousel-caption{
-    padding-top: 35% !important;
-    padding-bottom: 35% !important;
-}
 .page-item{
     margin: 0.5rem;
 }
-.btn-tour{
-    background-color:  #EE7C6B;
-    border: 2px solid  #EE7C6B;
-    padding: 1rem 1.75rem;
+.btn-ft{
+    background-color: hsla(174, 75%, 44%, 0);
+    border: 2px solid #1cc3b2;
+    padding: 5px 10px;
     font-weight: bolder;
     color: #fff;
+    transition-duration: 1s;
 }
-.btn-tour:hover{
-    color: black;
-    background-color: #fff;
-    border-color: black;
+.btn-ft:hover{
+    color: #fff;
+    border:2px solid #1cc3b2 ;
+    background-color: hsl(174, 75%, 44%);
 }
-
+form{
+    margin-bottom: 0;
+}
+.form-group{
+    margin-bottom: 0px !important;
+}
 /*-------------------------end bootstrap remake------------------------------*/
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
@@ -124,9 +154,6 @@ height: 100vh;
         height: 70vh;
         object-fit: cover;
     }*/
-  .carousel {
-    height: 95vh;
-  }
   .mycrop2{
       max-height: 400px;
       overflow: hidden;
@@ -135,10 +162,21 @@ height: 100vh;
       position: none;
       margin: 5% 0;
   }
+  .contact{
+    background: no-repeat url("../img/contact.jpg");
+    
+    background-size: auto;
+    opacity: 0.8;
+    text-shadow: 0px 0px 25px #000;
+}
+
 }
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
+    .top{
+        display: none;
+    }
     .mycrop2{
         max-height: 400px;
         overflow: hidden;

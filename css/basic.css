@@ -1,6 +1,9 @@
 .my-100{
     margin:100px 0;
 }
+.py-100{
+    padding:100px 0;
+}
 a{
     text-decoration: none !important;
 }
@@ -16,8 +19,14 @@ a{
 .w-100{
     width: 100%;
 }
+.ct-text{
+    color: #1cc3b2;
+}
 .fs-40{
     font-size: 30px;
+}
+.fs-20{
+    font-size: 20px;
 }
 .bg-dark{
     background-color: rgba(0,0,0,0.8) !important;
@@ -61,7 +70,7 @@ a{
     position: relative;
 }
 .bg-overlay{
-    background: rgba(0, 0, 0, 0.5);
+    background: #0e2737b0;
     position: absolute;
     height: 30%;
     width: 100%;

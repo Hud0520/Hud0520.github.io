@@ -1,0 +1,128 @@
+.top{
+    height: 49px;
+    background-color: #0e2737;
+    line-height: 49px;
+    transition-duration: 0.5s;
+    z-index: 10;
+}
+
+.top a, .top {
+    color:white;
+}
+
+.top i {
+    color: #1cc3b2;
+}
+.top a i {
+    color: white;
+}
+.top a:hover i {
+    color: #1cc3b2;
+}
+
+.top a i{
+    padding:0 5px;
+}
+.top-scrolled{
+    top: -49px !important;
+}
+#header{
+    background-color: white;
+    padding-top:54px;
+    transition-duration: 0.5s;
+    padding-bottom: 5px;
+    z-index: 100;
+}
+
+#header h1, #header  h1 i{
+    color: #1cc3b2 !important;
+    transition-duration: .5s;
+    margin: 0;
+}
+
+
+#header a{
+    color: black;
+    transition-duration: .5s;
+}
+
+#header li a:hover, #header a:hover i{
+    color: #1cc3b2 !important;
+}
+.dropdown-menu a{
+    color: black !important;
+    background-color: rgba(255,255,255,0.1);
+}
+.header-scrolled{
+    padding-top:5 !important;
+    background:#0e2737 !important;
+}
+.header-scrolled a{
+    color: white !important;
+}
+.header-scrolled a i{
+    color: white !important;
+}
+.header-scrolled a:hover, .header-scrolled a:hover i{
+    color: #1cc3b2 !important;
+}
+/*bootstrap*/
+.navbar{
+    padding: 0 0 !important;
+}
+.fixed-top{
+    width: 100vw;
+}
+.lg span{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Recursive', sans-serif;;
+    color: #cc1616;
+}
+.lg{
+    font-weight: 500;
+    font-family: 'Montserrat Alternates', sans-serif;
+    z-index: 102;
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.top{
+        display: none;
+    }
+    #header{
+        padding: 0;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.top{
+        display: none;
+    }
+    #header{
+        padding: 0;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.top{
+        display: none;
+    }
+    #header{
+        padding: 0;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}
+
+
+  
