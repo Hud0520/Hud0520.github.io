@@ -131,6 +131,7 @@ body{
     font-weight: bolder;
     color: #fff;
     transition-duration: 1s;
+    border-radius: 2px;
 }
 .btn-ft:hover{
     color: #fff;
